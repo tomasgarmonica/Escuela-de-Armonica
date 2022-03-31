@@ -3,8 +3,47 @@ $rojo: #c26e66;
 $celeste: #8bc8b8;
 $violeta: #645a78;
 
-.navbar {
+
+.bg-violeta{
     background-color: $violeta;
+}
+
+.bg-beige{
+    background-color: $beige;
+}
+
+.bg-celeste{
+    background-color: $celeste;
+}
+
+.bg-rojo{
+    background-color: $rojo;
+}
+
+.beige{
+    color:$beige;
+}
+
+.violeta{
+    color:$violeta;
+}
+
+.rojo{
+    color:$rojo;
+}
+
+.celeste{
+    color:$celeste;
+}
+
+.h1{
+    &__main{
+        margin-top:1%;
+    }
+}
+
+.navbar {
+
 
         a {
             color: $celeste;
@@ -13,7 +52,20 @@ $violeta: #645a78;
         button{
             color: $celeste;
         }
-        span{
-            color: $celeste;
+
+}
+
+.logomain{
+    padding: 70px;
+    width: 90%;
+        &:hover{
+            transform: rotate(3deg);
+
         }
 }
+
+.caja{
+    padding:2%;
+}
+
+
