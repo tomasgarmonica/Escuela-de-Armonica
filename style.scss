@@ -1,0 +1,19 @@
+$beige: #ecd2af;
+$rojo: #c26e66;
+$celeste: #8bc8b8;
+$violeta: #645a78;
+
+.navbar {
+    background-color: $violeta;
+
+        a {
+            color: $celeste;
+        }
+
+        button{
+            color: $celeste;
+        }
+        span{
+            color: $celeste;
+        }
+}
