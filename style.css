@@ -1,0 +1,65 @@
+.bg-violeta {
+  background-color: #645a78;
+}
+
+.bg-beige {
+  background-color: #ecd2af;
+}
+
+.bg-celeste {
+  background-color: #8bc8b8;
+}
+
+.bg-rojo {
+  background-color: #c26e66;
+}
+
+.beige {
+  color: #ecd2af;
+}
+
+.violeta {
+  color: #645a78;
+}
+
+.rojo {
+  color: #c26e66;
+}
+
+.celeste {
+  color: #8bc8b8;
+}
+
+.h1__main {
+  margin-top: 1%;
+}
+
+.navbar a {
+  color: #8bc8b8;
+}
+
+.navbar button {
+  color: #8bc8b8;
+}
+
+.logomain {
+  padding: 50px;
+  width: 90%;
+}
+
+.logomain:hover {
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+
+.caja {
+  padding: 2%;
+}
+
+.accordion{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*---------------------ANIMACIONES---------------------------*/
+/*# sourceMappingURL=style.css.map */
