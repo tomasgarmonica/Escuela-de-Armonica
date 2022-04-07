@@ -55,19 +55,42 @@ $violeta: #645a78;
 
 }
 
-.logomain{
+.logo{
+
+    &__main{
     padding: 50px;
     width: 90%;
-        &:hover{
+    :hover{
             transform: rotate(3deg);
 
         }
+    }
+    
+    &__quienessomos{
+        width: 75%;
+        opacity: 0.10;
+        position: relative
+        
+    }
 }
+
+
+.tituloqs{
+    position:absolute;
+    color: $violeta;
+    transform: translate(0,50px);
+}
+
+.textoqs{
+    position:absolute;
+    margin-top: 150px;
+    color:white;
+    background-color: $violeta;
+  }
 
 .caja{
     padding:2%;
 }
-
 
 
 /*---------------------ANIMACIONES---------------------------*/

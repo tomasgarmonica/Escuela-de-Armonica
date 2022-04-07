@@ -42,23 +42,38 @@
   color: #8bc8b8;
 }
 
-.logomain {
+.logo__main {
   padding: 50px;
   width: 90%;
 }
 
-.logomain:hover {
+.logo__main :hover {
   -webkit-transform: rotate(3deg);
           transform: rotate(3deg);
 }
 
-.caja {
-  padding: 2%;
+.logo__quienessomos {
+  width: 75%;
+  opacity: 0.10;
+  position: relative;
 }
 
-.accordion{
-  padding-left: 10px;
-  padding-right: 10px;
+.tituloqs {
+  position: absolute;
+  color: #645a78;
+  -webkit-transform: translate(0, 50px);
+          transform: translate(0, 50px);
+}
+
+.textoqs {
+  position: absolute;
+  margin-top: 150px;
+  color: white;
+  background-color: #645a78;
+}
+
+.caja {
+  padding: 2%;
 }
 
 /*---------------------ANIMACIONES---------------------------*/
