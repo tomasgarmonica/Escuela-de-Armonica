@@ -43,7 +43,9 @@ $violeta: #645a78;
 }
 
 .navbar {
-
+    position: sticky;
+    width: 100%;
+    top: 0;
 
         a {
             color: $celeste;
@@ -66,27 +68,7 @@ $violeta: #645a78;
         }
     }
     
-    &__quienessomos{
-        width: 75%;
-        opacity: 0.10;
-        position: relative
-        
-    }
 }
-
-
-.tituloqs{
-    position:absolute;
-    color: $violeta;
-    transform: translate(0,50px);
-}
-
-.textoqs{
-    position:absolute;
-    margin-top: 150px;
-    color:white;
-    background-color: $violeta;
-  }
 
 .caja{
     padding:2%;

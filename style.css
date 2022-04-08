@@ -34,6 +34,13 @@
   margin-top: 1%;
 }
 
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
 .navbar a {
   color: #8bc8b8;
 }
@@ -47,29 +54,9 @@
   width: 90%;
 }
 
-.logo__main:hover {
+.logo__main :hover {
   -webkit-transform: rotate(3deg);
           transform: rotate(3deg);
-}
-
-.logo__quienessomos {
-  width: 75%;
-  opacity: 0.10;
-  position: relative;
-}
-
-.tituloqs {
-  position: absolute;
-  color: #645a78;
-  -webkit-transform: translate(0, 50px);
-          transform: translate(0, 50px);
-}
-
-.textoqs {
-  position: absolute;
-  margin-top: 150px;
-  color: white;
-  background-color: #645a78;
 }
 
 .caja {
