@@ -1,0 +1,65 @@
+$colores: (
+    beige1: #ecd2af,
+    rojo1: #c26e66,
+    celeste1: #8bc8b8,
+    violeta1: #645a78,
+);
+
+.bg-violeta{
+    background-color: map-get($colores, violeta1);
+}
+
+
+.bg-beige{
+    background-color: map-get($colores, beige1);
+}
+
+.bg-celeste{
+    background-color: map-get($colores, celeste1);
+}
+
+.bg-rojo{
+    background-color: map-get($colores,rojo1);
+}
+
+.beige{
+    color:map-get($colores,beige1);
+}
+
+.violeta{
+    color:map-get($colores,violeta1);
+}
+
+.rojo{
+    color:map-get($colores,rojo1);
+}
+
+.celeste{
+    color:map-get($colores,celeste1);
+}
+
+.caja{
+    padding:2%;
+}
+
+@mixin cajacursos($display,$horizontal,$vertical,$colorfondo,$padding){
+    display: $display;
+    justify-content: $horizontal;
+    align-items: $vertical;
+    background-color: $colorfondo;
+    padding: $padding;
+}
+
+@mixin textocajacursos($colortexto,$fontsize,$fontweight,$padding){
+    color: $colortexto;
+    font-size: $fontsize;
+    font-weight: $fontweight;
+    padding:$padding;
+}
+
+%cardhover{
+    transform: scale(1.05);
+    background-color: #8bc8b8;
+    color: white;
+    filter:drop-shadow(0px 0px 5px map-get($colores,celeste1))
+}

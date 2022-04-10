@@ -30,8 +30,17 @@
   color: #8bc8b8;
 }
 
-.h1__main {
-  margin-top: 1%;
+.caja {
+  padding: 2%;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: #8bc8b8;
+  color: white;
+  -webkit-filter: drop-shadow(0px 0px 5px #8bc8b8);
+          filter: drop-shadow(0px 0px 5px #8bc8b8);
 }
 
 .navbar {
@@ -41,27 +50,189 @@
   top: 0;
 }
 
-.navbar a {
+.navbar .navbar-brand {
+  color: white;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.navbar .navbar-brand:hover {
   color: #8bc8b8;
 }
 
-.navbar button {
+.navbar .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar .custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.nav-link {
+  color: white;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.nav-link:hover {
   color: #8bc8b8;
+}
+
+.nav-item {
+  color: white;
+}
+
+.maincursos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ecd2af;
+  padding: 2%;
+}
+
+.maincursos h1 {
+  color: #645a78;
+  font-size: 7;
+  font-weight: bolder;
+  padding: 2%;
+}
+
+.clasesparticulares {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #645a78;
+  padding: 2%;
+}
+
+.clasesparticulares h2 {
+  color: white;
+  font-size: 6;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.clasesparticulares p {
+  color: white;
+  font-size: 5;
+  font-weight: normal;
+  padding: 1%;
+}
+
+.clasesgrupales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #c26e66;
+  padding: 2%;
+}
+
+.clasesgrupales p {
+  color: white;
+  font-size: 5;
+  font-weight: normal;
+  padding: 1%;
+}
+
+.clasesgrupales h2 {
+  color: white;
+  font-size: 6;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.tutorias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ecd2af;
+  padding: 2%;
+}
+
+.tutorias h2 {
+  color: #645a78;
+  font-size: 6;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.tutorias p {
+  color: #645a78;
+  font-size: 5;
+  font-weight: normal;
+  padding: 1%;
+}
+
+.cursosgrabados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #c26e66;
+  padding: 2%;
+}
+
+.cursosgrabados p {
+  color: white;
+  font-size: 5;
+  font-weight: normal;
+  padding: 1%;
+}
+
+.cursosgrabados h2 {
+  color: white;
+  font-size: 6;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.margin-top {
+  margin-top: 1%;
 }
 
 .logo__main {
   padding: 50px;
   width: 90%;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
-.logo__main :hover {
+.logo__main:hover {
   -webkit-transform: rotate(3deg);
           transform: rotate(3deg);
 }
 
-.caja {
-  padding: 2%;
+.card {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
-
-/*---------------------ANIMACIONES---------------------------*/
 /*# sourceMappingURL=style.css.map */

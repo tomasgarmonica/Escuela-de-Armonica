@@ -1,79 +1,29 @@
-$beige: #ecd2af;
-$rojo: #c26e66;
-$celeste: #8bc8b8;
-$violeta: #645a78;
+@import "./partials/variables-y-clases";
+@import "./partials/navbar";
+@import "./partials/maincursos";
 
 
-.bg-violeta{
-    background-color: $violeta;
+.margin-top{
+     margin-top: 1%;
 }
 
-.bg-beige{
-    background-color: $beige;
-}
-
-.bg-celeste{
-    background-color: $celeste;
-}
-
-.bg-rojo{
-    background-color: $rojo;
-}
-
-.beige{
-    color:$beige;
-}
-
-.violeta{
-    color:$violeta;
-}
-
-.rojo{
-    color:$rojo;
-}
-
-.celeste{
-    color:$celeste;
-}
-
-.h1{
-    &__main{
-        margin-top:1%;
-    }
-}
-
-.navbar {
-    position: sticky;
-    width: 100%;
-    top: 0;
-
-        a {
-            color: $celeste;
-        }
-
-        button{
-            color: $celeste;
-        }
-
-}
-
-.logo{
-
-    &__main{
+.logo__main{
     padding: 50px;
     width: 90%;
-    :hover{
+    transition: all .2s ease-in-out;
+
+    &:hover{
             transform: rotate(3deg);
 
         }
-    }
     
 }
 
-.caja{
-    padding:2%;
+.card{
+    transition: all .2s ease-in-out;
+
+    &:hover{
+        @extend %cardhover;
+    }
+
 }
-
-
-/*---------------------ANIMACIONES---------------------------*/
-
