@@ -42,6 +42,12 @@ $colores: (
     padding:2%;
 }
 
+.text-violeta{
+    color: map-get($colores,violeta1);
+}
+
+
+
 @mixin cajacursos($display,$horizontal,$vertical,$colorfondo,$padding){
     display: $display;
     justify-content: $horizontal;

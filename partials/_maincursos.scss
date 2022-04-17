@@ -20,6 +20,9 @@
             @include textocajacursos(white,5,normal,1%)
         }
 
+        li{
+            @include textocajacursos(white,5,normal,0%)
+        }
 }
 
 
@@ -35,6 +38,10 @@
 
         }
 
+        li{
+            @include textocajacursos(white,5,normal,0%)
+        }
+
 }
 
 .tutorias{
@@ -47,6 +54,12 @@
         p{
             @include textocajacursos(map-get($colores,violeta1),5,normal,1%)
         }
+
+        li{
+            @include textocajacursos(map-get($colores,violeta1),5,normal,0%)
+        }
+
+
 }
 
 .cursosgrabados{

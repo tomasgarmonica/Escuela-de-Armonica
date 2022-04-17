@@ -34,6 +34,10 @@
   padding: 2%;
 }
 
+.text-violeta {
+  color: #645a78;
+}
+
 .card:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
@@ -172,6 +176,13 @@
   padding: 1%;
 }
 
+.clasesparticulares li {
+  color: white;
+  font-size: 5;
+  font-weight: normal;
+  padding: 0%;
+}
+
 .clasesgrupales {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -198,6 +209,13 @@
   font-size: 6;
   font-weight: bold;
   padding: 2%;
+}
+
+.clasesgrupales li {
+  color: white;
+  font-size: 5;
+  font-weight: normal;
+  padding: 0%;
 }
 
 .tutorias {
@@ -228,6 +246,13 @@
   padding: 1%;
 }
 
+.tutorias li {
+  color: #645a78;
+  font-size: 5;
+  font-weight: normal;
+  padding: 0%;
+}
+
 .cursosgrabados {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -254,6 +279,87 @@
   font-size: 6;
   font-weight: bold;
   padding: 2%;
+}
+
+.mainrecursos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ecd2af;
+  padding: 2%;
+}
+
+.mainrecursos h1 {
+  color: #645a78;
+  font-size: 7;
+  font-weight: bolder;
+  padding: 2%;
+}
+
+.soplometrorecursos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #645a78;
+  padding: 2%;
+}
+
+.soplometrorecursos h2 {
+  color: white;
+  font-size: 6;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.soplometrorecursos p {
+  color: white;
+  font-size: 5;
+  font-weight: normal;
+  padding: 1%;
+}
+
+.youtuberecursos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #c26e66;
+  padding: 2%;
+}
+
+.youtuberecursos p {
+  color: white;
+  font-size: 5;
+  font-weight: normal;
+  padding: 1%;
+}
+
+.youtuberecursos h2 {
+  color: white;
+  font-size: 6;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.h1 {
+  margin-bottom: 0%;
 }
 
 .margin-top {
