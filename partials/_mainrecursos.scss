@@ -32,3 +32,16 @@
         }
 
 }
+
+.instagramrecursos{
+    @include cajacursos(flex,center,center,map-get($colores,beige1),2%)
+
+        h2{
+            @include textocajacursos(map-get($colores,violeta1),6,bold,2%)
+        }
+
+        p{
+            @include textocajacursos(map-get($colores,violeta1),5,normal,1%)
+        }
+
+}
