@@ -32,3 +32,16 @@
 .nav-item{
     color: white;
 }
+
+.navbarlogo{
+    animation-name: logorotando;
+    animation-duration: 20s;
+    transition: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logorotando{
+    0% {transform:scale(1);}
+    2% {transform: scale(1.1);}
+    5% {transform: scale(1);}
+}

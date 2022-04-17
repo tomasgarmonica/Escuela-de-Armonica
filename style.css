@@ -82,6 +82,47 @@
   color: white;
 }
 
+.navbarlogo {
+  -webkit-animation-name: logorotando;
+          animation-name: logorotando;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes logorotando {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  2% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  5% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes logorotando {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  2% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  5% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
 .maincursos {
   display: -webkit-box;
   display: -ms-flexbox;
