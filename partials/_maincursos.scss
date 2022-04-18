@@ -4,6 +4,8 @@
         h1{
             @include textocajacursos(map-get($colores,violeta1),7,bolder,2%)
         }
+
+
         
 }
 
@@ -22,6 +24,12 @@
 
         li{
             @include textocajacursos(white,5,normal,0%)
+        }
+
+        &:hover{
+            transform: scale(1.05);
+            color: white;
+            filter:drop-shadow(0px 0px 5px white)
         }
 }
 
@@ -42,6 +50,12 @@
             @include textocajacursos(white,5,normal,0%)
         }
 
+        &:hover{
+            transform: scale(1.05);
+            color: white;
+            filter:drop-shadow(0px 0px 5px white)
+        }
+
 }
 
 .tutorias{
@@ -59,6 +73,12 @@
             @include textocajacursos(map-get($colores,violeta1),5,normal,0%)
         }
 
+        &:hover{
+            transform: scale(1.05);
+            color: white;
+            filter:drop-shadow(0px 0px 5px white)
+        }
+
 
 }
 
@@ -71,5 +91,11 @@
 
         h2{
             @include textocajacursos(white,6,bold,2%)
+        }
+
+        &:hover{
+            transform: scale(1.05);
+            color: white;
+            filter:drop-shadow(0px 0px 5px white)
         }
 }

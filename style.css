@@ -183,6 +183,14 @@
   padding: 0%;
 }
 
+.clasesparticulares:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: white;
+  -webkit-filter: drop-shadow(0px 0px 5px white);
+          filter: drop-shadow(0px 0px 5px white);
+}
+
 .clasesgrupales {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -216,6 +224,14 @@
   font-size: 5;
   font-weight: normal;
   padding: 0%;
+}
+
+.clasesgrupales:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: white;
+  -webkit-filter: drop-shadow(0px 0px 5px white);
+          filter: drop-shadow(0px 0px 5px white);
 }
 
 .tutorias {
@@ -253,6 +269,14 @@
   padding: 0%;
 }
 
+.tutorias:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: white;
+  -webkit-filter: drop-shadow(0px 0px 5px white);
+          filter: drop-shadow(0px 0px 5px white);
+}
+
 .cursosgrabados {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,6 +303,14 @@
   font-size: 6;
   font-weight: bold;
   padding: 2%;
+}
+
+.cursosgrabados:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: white;
+  -webkit-filter: drop-shadow(0px 0px 5px white);
+          filter: drop-shadow(0px 0px 5px white);
 }
 
 .mainrecursos {
@@ -414,6 +446,12 @@
 @media (max-width: 560px) {
   .videoyoutube {
     display: none;
+  }
+  .soplometrorecursos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */
