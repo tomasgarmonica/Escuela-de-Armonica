@@ -1,5 +1,5 @@
 .maincursos{
-        @include cajacursos(flex,center,center,map-get($colores,beige1),2%);
+        @include cajacursos(flex, center, center, map-get($colores,beige1),2%);
 
         h1{
             @include textocajacursos(map-get($colores,violeta1),7,bolder,2%);
@@ -12,7 +12,7 @@
 
 
 .clasesparticulares{
-    @include cajacursos(flex,center,center,map-get($colores,violeta1),2%);
+    @include cajacursos(flex, center, center, map-get($colores,violeta1),2%);
 
         h2{
             @include textocajacursos(white,6,bold,2%);
@@ -31,11 +31,12 @@
             color: white;
             filter:drop-shadow(0px 0px 5px white);
         }
+    
 }
 
 
 .clasesgrupales{
-    @include cajacursos(flex,center,center,map-get($colores,rojo1),2%);
+    @include cajacursos(flex, center, center, map-get($colores,rojo1),2%);
 
         p{
             @include textocajacursos(white,5,normal,1%);         
@@ -59,7 +60,7 @@
 }
 
 .tutorias{
-    @include cajacursos(flex,center,center,map-get($colores,beige1),2%);
+    @include cajacursos(flex, center, center, map-get($colores,beige1),2%);
 
         h2{
             @include textocajacursos(map-get($colores,violeta1),6,bold,2%);
@@ -83,7 +84,7 @@
 }
 
 .cursosgrabados{
-    @include cajacursos(flex,center,center,map-get($colores,rojo1),2%);
+    @include cajacursos(flex, center, center, map-get($colores,rojo1),2%);
 
         p{
             @include textocajacursos(white,5,normal,1%);
