@@ -97,6 +97,11 @@
           animation-iteration-count: infinite;
 }
 
+.btn:hover{
+  background-color:#ecd2af;
+  color:#645a78;
+}
+
 @-webkit-keyframes logorotando {
   0% {
     -webkit-transform: scale(1);
